@@ -1,12 +1,15 @@
-# Pruebas con Playwright
+# APP
 
-Este proyecto contiene pruebas automatizadas usando [Playwright](https://playwright.dev/).
+Este repositorio contiene diferentes proyectos y pruebas automatizadas.
 
-## Archivos de prueba
-- `tests/example.spec.ts`: prueba de ejemplo incluida por defecto (sobre la página oficial de Playwright).
-- `tests/example-domain.spec.ts`: prueba personalizada que navega a `example.com` y hace clic en **Learn more**.
+## Carpetas principales
+- **PLAYWRIGHT/** → pruebas automatizadas con Playwright.
+- **cypress/** → pruebas automatizadas con Cypress.
+- **api-testing/** → pruebas de APIs.
 
-## Cómo ejecutar las pruebas
-Ejecutar todas las pruebas:
+## Cómo ejecutar las pruebas de Playwright
+Dentro de la carpeta `PLAYWRIGHT/` encontrarás un README específico con instrucciones detalladas.
+
+Ejemplo rápido:
 ```bash
-npx playwright test
+npx playwright test tests/example-domain.spec.ts --project=chromium --headed
