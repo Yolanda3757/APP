@@ -15,7 +15,7 @@ Ejemplo rápido:
 ```bash
 npx playwright test tests/example-domain.spec.ts --project=chromium --headed
 
-🤖 Bot de Búsqueda de Vacantes Laborales (`botqa_excel.py`)
+**🤖 Bot de Búsqueda de Vacantes Laborales (botqa_excel.py)**
 
 Este proyecto incluye una herramienta de automatización y web scraping desarrollada en Python con Selenium y Pandas.
 El bot realiza búsquedas automáticas de ofertas de empleo orientadas al perfil de aseguramiento de calidad (QA / Pruebas de Software) en el portal "El Empleo", procesa la información relevante y genera un reporte descargable en Excel.
