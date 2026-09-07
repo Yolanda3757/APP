@@ -48,11 +48,21 @@ En esta imagen se observa cómo el archivo `BotQA-Excel.xlsx` se guarda automát
 ## 2. Estructura del Excel generado
 Esta captura muestra la estructura interna del archivo Excel, detallando las columnas de Cargo, Empresa, Enlace, Fecha y Fuente con los datos extraídos de las vacantes encontradas.
 
-<img width="921" height="364" alt="image" src="https://github.com/user-attachments/assets/2d7e2d39-5e26-4958-9197-afe23f322f69" />
+<img width="1882" height="694" alt="image" src="https://github.com/user-attachments/assets/13490989-1d7a-42f9-b8cf-99bc9de3d42a" />
+
 
 ## 📈 Generación de Gráficas Estadísticas (`graficas.py`)
 
 El proyecto incluye un script adicional encargado de realizar un análisis visual de los datos recopilados por el bot.
+## Image-1 
+<img width="921" height="667" alt="image" src="https://github.com/user-attachments/assets/9b0c68b9-1465-4090-8baa-fe58fc8f5fd3" />
+## Image 2
+<img width="921" height="660" alt="image" src="https://github.com/user-attachments/assets/ebfccbb5-369b-435b-bb48-c93b500d5a29" />
+## Image 3
+<img width="921" height="653" alt="image" src="https://github.com/user-attachments/assets/0b30fea6-93b9-4bd1-b94b-4f987f933eb2" />
+
+
+
 
 ## ⚠️ Requisito previo obligatorio
 Para poder ejecutar la generación de gráficas, debe existir previamente el archivo Excel (`BotQA-Excel.xlsx`) generado por el script `botqa_excel.py`. Si el archivo no está presente en la carpeta, el script no podrá procesar los datos ni construir las métricas.
