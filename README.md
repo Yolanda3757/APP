@@ -21,7 +21,7 @@ npx playwright test tests/example-domain.spec.ts --project=chromium --headed
 Este proyecto incluye una herramienta de automatización y web scraping desarrollada en Python con Selenium y Pandas.
 El bot realiza búsquedas automáticas de ofertas de empleo orientadas al perfil de aseguramiento de calidad (QA / Pruebas de Software) en el portal "El Empleo", procesa la información relevante y genera un reporte descargable en Excel.
 
-📊 Datos extraídos en el Excel
+## 📊 Datos extraídos en el Excel
 El archivo Excel generado recopila automáticamente las siguientes columnas por cada oferta encontrada:
 
 - Cargo:Título o puesto de la vacante (ej. "Analista de pruebas", "QA Tester funcional", "Automatizador de pruebas").
