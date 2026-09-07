@@ -13,7 +13,7 @@ Dentro de la carpeta `PLAYWRIGHT/` encontrarás un README específico con instru
 
 Ejemplo rápido:
 ```bash
-npx playwright test tests/example-domain.spec.ts --project=chromium --headed
+npx playwright test tests/example-domain.spec.ts --project=chromium --headed```
 
 **🤖 Bot de Búsqueda de Vacantes Laborales (botqa_excel.py)**
 
